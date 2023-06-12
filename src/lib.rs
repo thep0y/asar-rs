@@ -75,6 +75,7 @@
 //! `asar` is licensed under either the [MIT license](LICENSE-MIT) or the
 //! [Apache License 2.0](LICENSE-APACHE), at the choice of the user.
 
+pub mod app;
 /// Error handling for parsing, reading, and writing asar archives.
 pub mod error;
 /// Header parsing for asar archives.
